@@ -20,41 +20,18 @@
     border-radius: 1px;
 }
 
-form.cont_search_box input[type=search]{
-    padding: 10px;
-    font-size: 1.0em;
-    border: 1px solid grey;
-    float: left;
-    width: 120%;
-    background: white;
-}
+form.cont_search_box input[type=search]     {   padding: 10px; font-size: 1.0em; border: 1px solid grey; float: left; width: 120%; background: white;}
 
-form.cont_search_box button{
-    float: left;
-    width: 20%;
-    padding: 10px;
-    background: #2196F3;
-    color: white;
-    font-size: 1.0em;
-    border: 1px solid grey;
-    border-left: none;
+form.cont_search_box button     {   float: left; width: 20%; padding: 10px; background: #2196F3; color: white; font-size: 1.0em; border: 1px solid grey; border-left: none;}
 
-}
+form.cont_search_box:hover      {   background: #0b7dda;}
 
-form.cont_search_box:hover{
-    background: #0b7dda;
-}
+form.cont_search_box::after     {    content: ""; clear: both; display: table;}
 
-form.cont_search_box::after{
-    content: "";
-    clear: both;
-    display: table;
-}
+.second_line_header ul          {    font-family:'Courier New', Courier, monospace; font-size: 1.0em; font-weight: bold; color:#000000; }
 
-.second_line_header ul       {   font-family:'Courier New', Courier, monospace; font-size: 1.0em; font-weight: bold; color:#000000; }
+.second_line_header ul li       {   display: inline-block; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; list-style-type: none;  color:#000000; padding: 10px 15px 5px 10px;}
 
-.second_line_header ul li    {   display: inline-block; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; list-style-type: none;  color:#000000; padding: 10px 15px 5px 10px;}
-
-.second_line_header ul li a  {   text-decoration: none; color:#000000;}
+.second_line_header ul li a     {   text-decoration: none; color:#000000;}
 
 .second_line_header ul li a:hover    {   color: #5c8a8a}
