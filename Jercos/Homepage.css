@@ -1,0 +1,52 @@
+.bar_header                 {   background-color: #e6eeff; height: 60%; width: 100%; display: inline-block; align-items: center; justify-content: space-between;}
+
+.first_line_header ul       {   font-family:'Courier New', Courier, monospace; color:#000000;}
+
+.first_line_header ul li    {   display: inline-block; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; list-style-type: none; color:#000000;}
+
+.first_line_header ul li a  {   text-decoration: none; color:#000000;}
+
+.first_line_header ul li a:hover    {   color: #5c8a8a}
+
+.search_box{
+    height: 3em;
+    width: 25em;
+    outline: none;
+}
+
+*{
+    box-sizing: border-box;
+    outline: none;
+    border-radius: 1px;
+}
+
+form.cont_search_box input[type=search]{
+    padding: 10px;
+    font-size: 1.0em;
+    border: 1px solid grey;
+    float: left;
+    width: 120%;
+    background: white;
+}
+
+form.cont_search_box button{
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 1.0em;
+    border: 1px solid grey;
+    border-left: none;
+
+}
+
+form.cont_search_box:hover{
+    background: #0b7dda;
+}
+
+form.cont_search_box::after{
+    content: "";
+    clear: both;
+    display: table;
+}
