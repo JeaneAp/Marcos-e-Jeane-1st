@@ -2,7 +2,7 @@
 
 .first_line_header ul       {   font-family:'Courier New', Courier, monospace; color:#000000;}
 
-.first_line_header ul li    {   display: inline-block; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; list-style-type: none; color:#000000;}
+.first_line_header ul li    {   display: inline-block; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; list-style-type: none;  color:#000000; padding: 10px 15px 5px 10px;}
 
 .first_line_header ul li a  {   text-decoration: none; color:#000000;}
 
@@ -50,3 +50,11 @@ form.cont_search_box::after{
     clear: both;
     display: table;
 }
+
+.second_line_header ul       {   font-family:'Courier New', Courier, monospace; font-size: 1.0em; font-weight: bold; color:#000000; }
+
+.second_line_header ul li    {   display: inline-block; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; list-style-type: none;  color:#000000; padding: 10px 15px 5px 10px;}
+
+.second_line_header ul li a  {   text-decoration: none; color:#000000;}
+
+.second_line_header ul li a:hover    {   color: #5c8a8a}
